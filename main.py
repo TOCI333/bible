@@ -15,7 +15,7 @@ app.title("Biblia")
 
 def button_function():
     #print("button pressed")
-  label = customtkinter.CTkLabel(master=app, text="HOLA MUNDO")
+  label = customtkinter.CTkLabel(master=app, text="Biblia")
   label.place(relx=0.5, rely=0.5, anchor=tkinter.CENTER)
   label.grid(row=1, column=0, padx=20, pady=20, sticky="ew")  
 
